@@ -10,10 +10,8 @@ int main(){
 cout << "Please choose from the following list" "\n 1. Addition" "\n 2. Subtraction"
 "\n 3. Multiplication" "\n 4. Division" "\n 5. Square" " \n 6. Exit" << endl;
 cin >> choice;
-if(choice < 1 || choice > 6){
-cout << "Choose a valid option"
-else
-switch(choice)
+
+switch(choice){
 case 1:
 	cout << "Enter 2 numbers to add" << endl;
 	cin >> num1 >> num2;
@@ -40,6 +38,6 @@ case 5:
 	ans = num1 * num1;
 	cout << ans;
 case 6:
-	cout << "Exiting"
+	cout << "Exiting";
 	return 0;
 }}
