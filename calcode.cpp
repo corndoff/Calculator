@@ -17,26 +17,31 @@ case 1:
 	cin >> num1 >> num2;
 	ans = num1 +num2;
 	cout << ans;
+	break;
 case 2:
 	cout << "Enter 2 numers to subtract" << endl;
 	cin >> num1 >> num2;
 	ans = num1 - num2;
 	cout << ans;
+	break;
 case 3:
 	cout << "Enter 2 numbers to multiply" << endl;
 	cin >> num1 >> num2;
 	ans = num1 * num2;
 	cout << ans;
+	break;
 case 4:
 	cout << "Enter 2 numbers to divide" << endl;
 	cin >> num1 >> num2;
 	ans = num1 / num2;
 	cout << ans;
+	break;
 case 5:
 	cout << "Enter a number to square" << endl;
 	cin >> num1;
 	ans = num1 * num1;
 	cout << ans;
+	break;
 case 6:
 	cout << "Exiting";
 	return 0;
